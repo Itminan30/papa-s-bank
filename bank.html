@@ -23,7 +23,7 @@
             <div class="grid grid-cols-3 gap-4">
                 <div class=" bg-amber-400 p-5 rounded-xl">
                     <h2 class="text-white p-4 font-semibold  text-3xl">Deposite</h2>
-                    <h3 class="text-white font-semibold p-4 text-5xl">$00</h3>
+                    <h3 class="text-white font-semibold p-4 text-5xl">$<span id="deposit-total">00</span></h3>
                 </div>
                 <div class="bg-teal-400 p-5 rounded-xl">
                     <h2 class="text-white p-4 font-semibold  text-3xl">Withdraw</h2>
@@ -40,7 +40,7 @@
             <div class="grid grid-cols-2 gap-4">
                 <div class=" bg-indigo-400 p-5 rounded-xl">
                     <h2 class="text-white p-4 font-semibold  text-3xl">Pola taka dao</h2>
-                    <input class="w-9/12 mb-4 ml-5 block  h-10 text-center" type="text" name="" id="deposit-amount"
+                    <input class="w-9/12 mb-4 ml-5 block  h-10 text-center" type="text" name="" id="deposit-field"
                         placeholder="$ Your Want to Deposite">
 
                     <button id="deposit-btn"
@@ -57,6 +57,9 @@
             </div>
         </section>
     </main>
+
+    <!-- script link -->
+    <script src="script/deposit.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 // step-1: add click event handler
-document.getElementById('submit-btn').addEventListener('click', function(event){
+document.getElementById('submit-btn').addEventListener('click', function(){
     // step-2: get email from user and use value to get the input field's value
     const userMail = document.getElementById('user-mail').value;
     // step-3: get password similarly to the email
