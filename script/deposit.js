@@ -3,6 +3,12 @@ document.getElementById('deposit-btn').addEventListener('click',function(){
     // step-2: get the deposit amount from the deposit input field
     const depositField = document.getElementById('deposit-field');
     const newdDepositAmount = depositField.value;
+    // step-7: clear deposit field
+    depositField.value = '';
+    if (isNaN(parseFloat(newdDepositAmount))) {
+        alert('Please insert a valid Number');
+        return;
+    }
     // step-3: get the current deposit total
     const depositTotalElement = document.getElementById('deposit-total');
     const previousDepositTotal = depositTotalElement.innerText;
