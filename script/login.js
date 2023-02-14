@@ -7,7 +7,7 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     // Dangerous: Don't verify mail and password on the client side
     // step-4: verify mail and password
 
-    if(userMail === 'goribPola@takaNai.com' && userPassoword === 'takadao'){
+    if(userMail === 'baaperTakaeCholi@goribPola.com' && userPassoword === 'takadao'){
         console.log('Ashol pola');
         window.location.href = 'bank.html';
     }
