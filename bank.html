@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- my styles -->
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-6xl text-center text mt-12 font-semibold">Let's Spend some <span
+                class="text-rose-600 font-bold">Moooooooney</span></h1>
+    </header>
+
+    <main>
+        <section class="w-9/12 mx-auto mt-20">
+            <div class="grid grid-cols-3 gap-4">
+                <div class=" bg-amber-400 p-5 rounded-xl">
+                    <h2 class="text-white p-4 font-semibold  text-3xl">Deposite</h2>
+                    <h3 class="text-white font-semibold p-4 text-5xl">$00</h3>
+                </div>
+                <div class="bg-teal-400 p-5 rounded-xl">
+                    <h2 class="text-white p-4 font-semibold  text-3xl">Withdraw</h2>
+                    <h3 class="text-rose-600 p-4 font-semibold text-5xl">$00</h3>
+                </div>
+                <div class="bg-yellow-600 p-5 rounded-xl">
+                    <h2 class="text-white p-4 font-semibold  text-3xl">Total Balance</h2>
+                    <h3 class="text-yellow-50 p-4 font-semibold text-5xl">$00</h3>
+                </div>
+            </div>
+        </section>
+        <!-- deposit and withdraw -->
+        <section class="w-9/12 mx-auto mt-20">
+            <div class="grid grid-cols-2 gap-4">
+                <div class=" bg-indigo-400 p-5 rounded-xl">
+                    <h2 class="text-white p-4 font-semibold  text-3xl">Pola taka dao</h2>
+                    <input class="w-9/12 mb-4 ml-5 block  h-10 text-center" type="text" name="" id="deposit-amount"
+                        placeholder="$ Your Want to Deposite">
+
+                    <button id="deposit-btn"
+                        class="bg-emerald-500 px-8 py-3 block ml-5 rounded-lg text-white font-semibold hover:bg-emerald-700">Deposit</button>
+                </div>
+                <div class="bg-fuchsia-400 p-5 rounded-xl">
+                    <h2 class="text-white p-4 font-semibold  text-3xl">Pola Taka Nao</h2>
+                    <input class="w-9/12 mb-4 block ml-5 h-10 text-center" type="text" name="" id="withdraw-amount"
+                        placeholder="$ You Want to Withdraw">
+
+                    <button id="withdraw-btn"
+                        class="bg-emerald-500 px-8 py-3 block ml-5  rounded-lg text-white font-semibold hover:bg-emerald-700">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
